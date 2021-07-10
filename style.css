@@ -73,6 +73,9 @@ header::before {
     font-size: 26px;
     padding: 10px 10px;
     background-color: rgb(229, 212, 235);
+    transition-property: background-color;
+    transition-duration: 1.1s;
+    transition-timing-function: ease-out;
     color: rgb(211, 117, 29);
     border-radius: 20px;
 
@@ -81,6 +84,7 @@ header::before {
 .silk:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(235, 131, 131);
+    transform: scale(2);
 }
 
 /* cards */
@@ -148,6 +152,14 @@ header::before {
     width: 150%;
     color: white;
 }
+
+
+.item:hover {
+    transform: scale(1.2);
+}
+
+
+
 
 /* .back1::before{
     content: "";
