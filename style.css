@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    
+    
+}
+
+.navigation {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 29px;
+    font-weight: 549;
+}
+
+.link:hover {
+    color: rgb(45, 233, 240);
+    /* font-size: 29px; */
+    /* text-decoration:underline; */
+
+}
+
+li{
+    list-style: none;
+    padding: 20px 23px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+
+section {
+    padding: 3px 23px;
+    margin: 3px 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 430px;
+    justify-content: center;
+    color: rgb(253, 250, 250);
+    }
+
+header::before {
+    background: url("image/shoping.jpg") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+
+.silk {
+    /* border: 2px solid black; */
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Pacifico', cursive;
+    font-size: 26px;
+    padding: 10px 10px;
+    background-color: rgb(229, 212, 235);
+    color: rgb(211, 117, 29);
+    border-radius: 20px;
+
+}
+
+.silk:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(235, 131, 131);
+}
+
+/* cards */
+
+.box {
+    display: flex;
+    
+    /* justify-content: center; */
+}
+
+.card {
+    padding: 23px 12px;
+    margin: 86px 65px;
+    /* border: 2px red solid; */
+    text-align: center;
+    background-color: rgb(190, 223, 219);
+    /* background: url("image/clothes.jpg"); */
+    color: black;
+    border-radius: 7px;
+    box-shadow: -6px -6px 5px rgba(43, 168, 226, 0.582);
+}
+
+.card:hover {
+    background-color: brown;
+    color: rgb(245, 23, 23);
+    box-shadow: -6px -6px 5px whitesmoke;
+    border-radius: 7px;
+
+}
+
+.h2{
+    text-shadow: -2.5px -2.6px  rgba(201, 145, 41, 0.678);
+}
+
+.h2:hover {
+    color: rgba(165, 57, 57, 0.993);
+}
+
+
+
+.linkb {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+}
+
+.linkc {
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(253, 253, 253);
+}
+
+.back1{
+    background: url("image/cloth2.jpg") no-repeat center center/cover;
+    width: 150%;
+}
+
+.back2{
+    background: url("image/electronics.jpg") no-repeat center center/cover;
+    width: 150%;
+}
+
+.back3{
+    background: url("image/grocery.jpg") no-repeat center center/cover;
+    width: 150%;
+    color: white;
+}
+
+/* .back1::before{
+    content: "";
+    background: url("image/cloth2.jpg") no-repeat center center/cover;
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+
+} */
+
+
+/* header::before {
+    background: url("https://source.unsplash.com/collection/190727/1600x900") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+} */
